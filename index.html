@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>画像処理サイト</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Image Processing</h1>
+            <nav class="navdeza">
+                <ul>
+                    <li class="tab"><a href="index.html">グレースケール</a></li>
+                    <li class="tab"><a href="blur.html">モザイク</a></li>
+                    <li class="tab"><a href="rotate.html">回転</a></li>
+                    <li class="tab"><a href="trimming.html">トリミング</a></li>
+                </ul>
+            </nav>    
+        </header>
+        <main>
+            <h2>グレースケール化</h2>
+            <div class="file">
+                <label class="fileselect"><input type="file" id="filebox" onchange="onFileSelect(this.files,'')">ファイルを選択</label>
+                <p id="text">ファイルが選択されていません</p>
+            </div>
+            <div class="photo">
+                <canvas id="canvas1" width=300 height=300 style="border: 1px solid;" ></canvas>
+                <canvas id="canvasgary" width=300 height=300 style="border: 1px solid;" ></canvas>
+            </div>
+            <div class="dophoto">
+                <input type="submit" class="button" id="buttongray" value="画像処理をする！"></input>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;Copyright Image processing.ALL rights reserved.</p>
+        </footer>
+        <script src="js/gray.js"></script>
+    </body>
+</html>
