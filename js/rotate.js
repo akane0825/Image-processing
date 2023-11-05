@@ -35,3 +35,4 @@ function onFileSelect(files,canvas1){
     reader.readAsDataURL(files[0]);
 }
 //回転
+//これから
