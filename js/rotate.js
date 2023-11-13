@@ -1,5 +1,3 @@
-var canvas,ctx,photo,comWidth,comHeight,url;
-
 //回転
 //右回転
 var angle = 0;

@@ -13,7 +13,7 @@
                     <li class="tab"><a href="index.html">グレースケール</a></li>
                     <li class="tab"><a href="blur.html">モザイク</a></li>
                     <li class="tab"><a href="rotate.html">回転</a></li>
-                    <li class="tab"><a href="trimming.html">トリミング</a></li>
+                    <li class="tab"><a href="binarization.html">2値化</a></li>
                 </ul>
             </nav>    
         </header>
@@ -25,16 +25,16 @@
             </div>
                 <div class="photo">
                     <canvas id="canvas1" width=300 height=300 style="border: 1px solid;" ></canvas>
-                    <canvas id="canvasgary" width=300 height=300 style="border: 1px solid;" ></canvas>
+                    <canvas id="canvasbinarization" width=300 height=300 style="border: 1px solid;" ></canvas>
                 </div>
                 <div class="dophoto">
-                    <input type="submit" class="button" id="buttongray" value="画像処理をする！"></input>
+                    <input type="submit" class="button" id="buttonbinarization" value="画像処理をする！"></input>
                 </div>
         </main>
         <footer>
             <p>&copy;Copyright Image processing.ALL rights reserved.</p>
         </footer>
         <script src="js/fileselect.js"></script>
-        <script src="js/photo.js"></script>
+        <script src="js/binarization.js"></script>
     </body>
 </html>
