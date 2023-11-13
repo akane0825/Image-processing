@@ -75,7 +75,7 @@ input[type="file"] {
 	margin: auto 20px auto 150px;
 	padding: 1rem 2rem;
 	font-weight: bold;
-	border-radius: 0.3rem;
+	border-radius: 3vh;
 	border-bottom: 7px solid #0686b2;
 	background: #27acd9;
 	color: #fff;
@@ -110,6 +110,9 @@ canvas{
     padding: 1rem 4rem;
     font-weight: bold;
     border-radius: 100vh;
+    border-top: #27acd9;
+    border-left: #27acd9;
+    border-right: #27acd9;
     border-bottom: 7px solid #0686b2;
     background: #27acd9;
     color: #fff;
